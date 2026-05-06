@@ -36,6 +36,16 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Lightning / training logs
+logs/
+
+# Model checkpoints
+checkpoints/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
